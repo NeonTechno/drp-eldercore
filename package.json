@@ -1,12 +1,13 @@
 {
   "name": "eldercore-drp-bot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ElderCore - AI Discord Bot for DRP Community",
   "main": "eldercore-bot.js",
   "scripts": {
     "start": "node eldercore-bot.js",
     "dev": "node eldercore-bot.js",
-    "deploy": "node deploy-commands.js"
+    "deploy": "node deploy-commands.js",
+    "check": "node --check eldercore-bot.js && node --check deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.13.0",
